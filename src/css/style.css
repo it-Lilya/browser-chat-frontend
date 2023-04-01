@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    font-size: 100%;
+    background-image: url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-147801.jpg?w=1800&t=st=1680038220~exp=1680038820~hmac=27fc5a156616067dd76db1186ab55a55850003b45364c2a7f6c04cffeb391472');
+
+}
+.modal-window {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+    margin: 300px auto;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.hide{
+    display: none;
+}
+.modal-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.modal-input {
+    margin-bottom: 10px;
+}
+.modal-btn {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 150px;
+    margin: auto;
+}
+.modal-btn:hover {
+    background-color: rgb(177, 239, 196);
+    font-size: 18px;
+    padding: 2px;
+}
+
+.chat {
+    width: 600px;
+    /* min-height: 200px; */
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    border-radius: 20px;
+}
+.hidden {
+    display: none;
+}
+.users {
+    border: 1px solid black;
+    width: 20%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.messages {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    position: relative;
+    padding: 15px;
+    background-color: white;
+}
+.textarea {
+    bottom: 10px;
+    width: 90%;
+    border-radius: 20px;
+    resize: none;
+    padding: 8px;
+    margin-top: 15px;
+}
+.warning {
+    margin: 7px auto;
+    display: none;
+}
+.active {
+    display: block;
+    color: red;
+}
+.user {
+    list-style-type: none;
+    padding: 3px 10px;
+    margin: 7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.messages-list {
+    position: relative;
+}
+.chat-containers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.you {
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.nickname {
+    color: gray;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.second {
+    font-size: 10px;
+    color: gray;
+}
+.new-mes {
+    list-style: none;
+    width: 300px;
+    background-color:  rgb(201, 201, 246);
+    border-radius: 15px;
+    margin: 20px 0px 20px auto;
+    padding: 7px;
+}
+.new-mess {
+    list-style: none;
+    width: 300px;
+    background-color:  rgb(180, 239, 193);
+    border-radius: 15px;
+    margin: 20px auto 20px 0px;
+    padding: 7px;
+}
+.mes-text {
+    font-size: 24px;
+}
